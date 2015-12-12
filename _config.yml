@@ -1,7 +1,7 @@
 title:            bits and pieces
 description:      "A blog about code experiments and stuff."
 logo:             logo.png
-disqus_shortname: vmlf01
+disqus_shortname: vmlf-bitsandpieces
 share:            true
 dropcap:          true
 # Change url to your domain. Leave localhost server or blank when working locally.

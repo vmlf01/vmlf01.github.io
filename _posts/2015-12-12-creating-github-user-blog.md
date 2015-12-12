@@ -16,4 +16,4 @@ Should have headed straight to the [GitHub Pages](https://pages.github.com/) web
 
 The hardest part was to find out what people meant with creating a personal repository instead of a project repository. Spent some 5-10 minutes around GitHub options searching high and low for an option to create it.
 
-Turns out you just need to create a new repository named *username.github.io* and you're all set. GitHub Pages already provides integration with Jekyll, so you just need to push your updates to *master* and your site gets updated.
+Turns out you just need to create a new repository named *username.github.io* and you're all set. GitHub Pages already provides integration with Jekyll, so you just need to push your updates to *master* and your site gets updated. Easy as pie.
