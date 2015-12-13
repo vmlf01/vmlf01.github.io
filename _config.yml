@@ -15,7 +15,7 @@ owner:
   avatar:         vmlf01.jpg
   email:          vmlf01@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    developer
+  description:
   # Social networking links used in footer. Update and remove as you like.
   #twitter:        vmlf01
   #facebook:       vmlf01
@@ -28,7 +28,7 @@ owner:
 google_analytics:    UA-71320139-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+#bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -45,27 +45,27 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Lisbon
 future:      true
-highlighter: pygments
-markdown:    kramdown
+highlighter: rouge
+markdown:    redcarpet
 paginate:    5
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+#kramdown:
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..6
+#  enable_coderay: false
+#
+#  coderay:
+#    coderay_line_numbers:
+#    coderay_line_numbers_start: 1
+#    coderay_tab_width: 4
+#    coderay_bold_every: 10
+#    coderay_css: class
 
 prose:
   rooturl: '_posts'
@@ -114,7 +114,7 @@ prose:
             - name: "C#"
               value: c#
             - name: "Node.js"
-              value: node.js
+              value: nodejs
             - name: "Code"
               value: code
             - name: "IoT"
