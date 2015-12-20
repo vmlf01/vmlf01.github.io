@@ -4,7 +4,7 @@ title: "Starting ASP.NET5 on Linux, Part 1"
 description:
 headline:
 modified: 2015-12-20 16:31:28 +0000
-category: c#, webdevelopment
+category: [c#, webdevelopment]
 tags: [c#, code]
 imagefeature:
 mathjax:
