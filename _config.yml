@@ -112,7 +112,7 @@ prose:
           value: personal
           options:
             - name: "C#"
-              value: c#
+              value: csharp
             - name: "Node.js"
               value: nodejs
             - name: "Code"
