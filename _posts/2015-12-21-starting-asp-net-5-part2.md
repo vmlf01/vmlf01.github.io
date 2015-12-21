@@ -13,7 +13,7 @@ comments: true
 featured: false
 ---
 
-Starting where we left off in [Part 1](starting-asp-net-5-part1), to get [OmniSharp](http://www.omnisharp.net/) integration (tasks, IntelliSense and more) in Visual Studio Code, I need to install Mono first.
+Starting where we left off in [Part 1]({% post_url 2015-12-20-starting-asp-net-5-part1 %}), to get [OmniSharp](http://www.omnisharp.net/) integration (tasks, IntelliSense and more) in Visual Studio Code, I need to install Mono first.
 
 Following the [official Mono instructions](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives), I ran:
 

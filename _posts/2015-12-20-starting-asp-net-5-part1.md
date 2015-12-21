@@ -42,4 +42,4 @@ I don't see any tutorial for Linux, so I jump into the [Your first ASP.NET 5 App
 
 Then I fire up Visual Studio Code (I already had that one installed) and try *dnx: Restore Packages* as instructed, just to find out I need something called OmniSharp server running and it is not. Going into *Help -> Toggle Developer Tools*, I get some error messages telling me I need Mono version >=4.0.1. There is no escaping it!
 
-This is taking longer than I anticipated, so I'm going to split this into 2 parts. Don't miss out on [Part 2](starting-asp-net-5-part2), where I will be compiling and running the ASP.NET sample project.
+This is taking longer than I anticipated, so I'm going to split this into 2 parts. Don't miss out on [Part 2]({% post_url 2015-12-21-starting-asp-net-5-part2 %}), where I will be compiling and running the ASP.NET sample project.
