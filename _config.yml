@@ -121,6 +121,8 @@ prose:
               value: iot
             - name: "Javascript"
               value: js
+            - name: "Angular"
+              value: angular
             - name: "Build Tools"
               value: build
             - name: "TDD"

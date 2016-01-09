@@ -29,7 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 
 header, main, footer {
   position: relative;
-  z-index: 1; }
+  /*z-index: 1;*/
+}
 
 main, .notepad-share-icons, .notepad-disqus {
   background: white; }
@@ -1371,7 +1372,7 @@ html, body, .notepad-post-container, .notepad-post-header {
 .notepad-post-menu-header-simple {
   width: 100%;
   height: 5rem;
-  background-color: black;
+  background-color: #2f2f2f;
   color: white;
   position: relative;
   z-index: 9999; }
@@ -1532,7 +1533,7 @@ pre {
 
 code {
   font-size: 0.9375rem;
-  line-height: 1.2; }
+  line-height: 1.4; }
 
 iframe {
   border: 0; }
