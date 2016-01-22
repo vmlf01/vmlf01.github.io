@@ -43,7 +43,7 @@ _.sample([1, 2, 3, 4]);
 
 ## _.sampleSize
 
-Returns a group of random element from a collection.
+Returns a group of random elements from a collection.
 
 ```js
 _.sampleSize([1, 2, 3, 4], 2);
