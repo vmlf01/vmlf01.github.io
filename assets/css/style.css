@@ -1104,7 +1104,14 @@ html, body, .notepad-post-container, .notepad-post-header {
       text-transform: uppercase; }
       @media only screen and (min-width: 40.063em) {
         .post-template .notepad-post-title h1 {
-          font-size: 3.125rem; } }
+          font-size: 3.125rem; } 
+        .post-template .notepad-post-title.background--light {
+          top: 60%;
+        }
+        .post-template .notepad-post-title.background--dark {
+          top: 60%;
+        }
+      }
       @media only screen and (min-width: 70em) {
         .post-template .notepad-post-title h1 {
           font-size: 4.375rem; } }
@@ -1112,9 +1119,11 @@ html, body, .notepad-post-container, .notepad-post-header {
         .post-template .notepad-post-title h1 {
           font-size: 5.3125rem; } }
     .post-template .notepad-post-title.background--light h1 {
-      color: black; }
+      color: black; 
+    }
     .post-template .notepad-post-title.background--dark h1 {
-      color: white; }
+      color: white; 
+    }
   .post-template button.trigger {
     position: fixed;
     bottom: 2.5rem;
