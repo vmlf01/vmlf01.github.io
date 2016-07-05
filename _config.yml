@@ -45,8 +45,10 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Lisbon
 future:      true
-highlighter: pygments
+#highlighter: pygments
 #markdown:    redcarpet
+kramdown:
+  input: GFM
 paginate:    5
 paginate_path: "page:num"
 

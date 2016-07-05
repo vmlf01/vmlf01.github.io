@@ -1645,8 +1645,7 @@ iframe {
 }
 
 code { background: #313331; padding: 4px; padding-left: 15px; padding-right: 15px; border-radius: 5px; }
-.highlight code { background: #313331; padding: 0px !important; padding-left: 0px !important; padding-right: 0px !important; border-radius: 5px; }
-
+.highlight code { display: block; background: #313331; border-radius: 10px; padding: 20px;}
 
 .highlight .hll { background-color: #49483e }
 .highlight pre { background: #313331; color: #f8f8f2; padding: 25px; border-radius: 10px; }
