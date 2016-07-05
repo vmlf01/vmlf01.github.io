@@ -46,7 +46,7 @@ links:
 timezone:    Europe/Lisbon
 future:      true
 highlighter: pygments
-markdown:    redcarpet
+#markdown:    redcarpet
 paginate:    5
 paginate_path: "page:num"
 
