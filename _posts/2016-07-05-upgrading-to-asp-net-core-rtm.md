@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Upgrading to ASP.NET Core RTM"
-description:
-headline: 
+description: An overview of the not so obvious issues I faced when upgrading an application to .Net Core 1.0
+headline:
 modified: 2016-07-05 11:47:06 +0100
 category: [csharp, webdevelopment]
 tags: [c#, code]
 imagefeature: asp_net_core.jpg
-mathjax: 
-chart: 
+mathjax:
+chart:
 comments: true
 featured: false
 ---
@@ -18,7 +18,7 @@ It is a small Web API project that used ASP.NET 5 RC2 running on DNX in Ubuntu a
 
 The first step is getting the .NET Core installed, which is easy enough by following the instructions on the [.Net Core site](https://www.microsoft.com/net/core#ubuntu).
 
-If you are already on RC2 with a dotnet based project, it's easier to migrate, there are not that many changes to make. 
+If you are already on RC2 with a dotnet based project, it's easier to migrate, there are not that many changes to make.
 But my project is still DNX based, so there is quite a lot to change.
 
 Fortunately, there is also some pretty good documentation about all the things that have changes from RC1 to RC2 to 1.0 RTM:
@@ -36,7 +36,7 @@ Some of the changes are not so obvious, because they don't generate compile time
 ### Using strongly-typed configuration settings
 
 If you follow Microsoft examples on this one, it's pretty simple to inject your configurations wherever you need them.
-Rick Strahl [has a post on it](https://weblog.west-wind.com/posts/2016/May/23/Strongly-Typed-Configuration-Settings-in-ASPNET-Core#PluggableConfiguration) which goes into detail on how to set it up. 
+Rick Strahl [has a post on it](https://weblog.west-wind.com/posts/2016/May/23/Strongly-Typed-Configuration-Settings-in-ASPNET-Core#PluggableConfiguration) which goes into detail on how to set it up.
 The problem is it is injected as an instance of the generic IOptions<T> type and I don't like that.
 
 Before, we we're using IConfiguration.Get() for getting and registering an instance of the configuration object itself in IoC services, like this:
